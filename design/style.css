@@ -1,0 +1,176 @@
+/* Estilos de etiquetas generales */
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+main {
+    padding: 70px 0px 35px 0px;
+}
+
+footer {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos de index.html */
+.cont-logo {
+    width: 20em;
+}
+
+.cont-logo a img {
+    max-height: 80px;
+    max-width: 174px;
+    ;
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.menu-list li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+.image-one-three {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-one-three img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 200px;
+}
+
+.title {
+    margin-bottom: 80px;
+}
+
+.title-two {
+    margin-left: 100px;
+    margin-right: 130px;
+    margin-bottom: 60px;
+}
+
+.text-one-three {
+    margin-top: 40px;
+}
+
+.part-two {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px;
+}
+
+.image-two {
+    order: 1;
+    margin-right: 100px;
+}
+
+.text-two {
+    order: -1;
+    margin-left: 160px;
+    margin-right: 100px;
+}
+
+.list-two li {
+    margin-top: 15px;
+}
+
+.video-trailer {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.empresa {
+    color: white;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos de map.html */
+.maps {
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.titles-map {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos de  Skills.html*/
+.skills-unlock-title {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.skills-image {
+    display: flex;
+    width: auto;
+}
+
+.skills-image img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.skills-text {
+    margin-left: 60px;
+    flex-direction: column;
+}
+
+.skills-spells-title {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.vengeful img {
+    width: 144px;
+    height: 90px;
+}
+
+.dream-nail {
+    width: 72px;
+    height: 144px;
+}
+.worldsense {
+    width: 150px;
+    height: 73px;
+}
